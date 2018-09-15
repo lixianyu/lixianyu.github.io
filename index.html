@@ -299,6 +299,169 @@
   
   
   <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://huoweiyi.com/2018/09/15/anaconda-shuang-huan-jing/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="咸鱼厉">
+      <meta itemprop="description" content="从一九八七年九月七日开始写日记，三十年啦，该写点儿什么了——用我的语言方式——有点儿冷冰冰地阐述一种客观存在">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Atlas">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2018/09/15/anaconda-shuang-huan-jing/" itemprop="url">
+                  Anaconda的双环境
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2018-09-15 18:49 18:49:43" itemprop="dateCreated datePublished" datetime="2018-09-15T18:49:43+08:00">2018-09-15 18:49</time>
+            
+
+            
+          </span>
+
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2018/09/15/anaconda-shuang-huan-jing/#comments" itemprop="discussionUrl">
+                  <span class="post-meta-item-text">评论数：</span> <span class="post-comments-count valine-comment-count" data-xid="/2018/09/15/anaconda-shuang-huan-jing/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+             <span id="/2018/09/15/anaconda-shuang-huan-jing/" class="leancloud_visitors" data-flag-title="Anaconda的双环境">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">阅读次数：</span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p><strong><a href="https://www.anaconda.com/" target="_blank" rel="noopener">Anaconda</a></strong>就不说啥了，自行Google吧。</p>
+<p>说一下创建“双环境”。</p>
+<h3 id="创建环境"><a href="#创建环境" class="headerlink" title="创建环境"></a>创建环境</h3><p>创建环境时，可以指定要安装在环境中的 Python 版本。<br>这在你同时使用 Python 2.x 和 Python 3.x 的代码时很有用。<br>要创建具有特定 Python 版本的环境，请键入类似于 <code>conda create -n py3 python=3</code> 或 <code>conda create -n py2 python=2</code><br>的命令。</p>
+<p>实际上，我在我的个人计算机上创建了这两个环境。我将它们用作与任何特定项目均无关的通用环境，<br>以处理普通的工作（可轻松使用每个 Python 版本）。这些命令将分别安装 <strong>Python 3</strong> 和 <strong>Python 2</strong> 的最新版本。<br>要安装特定版本（例如 Python 3.3），请使用 <code>conda create -n py python=3.3</code>。</p>
+<h3 id="进入环境"><a href="#进入环境" class="headerlink" title="进入环境"></a>进入环境</h3><p>创建了环境后，在 OSX/Linux 上使用 <code>source activate my_env</code> 进入环境。在 Windows 上，请使用 <code>activate my_env</code>。</p>
+<p>进入环境后，你会在终端提示符中看到环境名称，它类似于 (my_env) ~ $。环境中只安装了几个默认的包，以及你在创建它时安装的包。你可以使用 <code>conda list</code>来检查这一点。在环境中安装<strong>包</strong>的命令与前面一样：</p>
+<p><code>conda install package_name</code>。不过，这次你安装的特定包仅在你进入环境后才可用。要离开环境，请键入 <code>source deactivate</code>（在 OSX/Linux 上）。在 Windows 上，请使用 <code>deactivate</code>。</p>
+
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="https://huoweiyi.com/2018/09/06/android-www/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -1838,7 +2001,7 @@
                 
                   <a href="/archives/">
                 
-                    <span class="site-state-item-count">9</span>
+                    <span class="site-state-item-count">10</span>
                     <span class="site-state-item-name">日志</span>
                   </a>
                 </div>
